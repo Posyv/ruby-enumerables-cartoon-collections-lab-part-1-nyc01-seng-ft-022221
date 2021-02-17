@@ -1,6 +1,6 @@
 def greet_characters(array)
   dcount = 0
-  greet_characters.each do 
+  greet_characters.each do
     puts "Hello #{[array]}!"
     dcount += 1
   end
