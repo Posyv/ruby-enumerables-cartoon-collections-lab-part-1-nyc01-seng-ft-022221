@@ -11,11 +11,12 @@ end
 
 def list_dwarves(array)
   dcount = 0
-  each_with_index.each += 1
+  n = 0
   array.each do |dwarf|
-    puts "#{each_with_index} #{dwarf}!"
+    puts "(n+1.to_s) #{dwarf}!"
     dcount += 1
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
+  n += 1
 end
