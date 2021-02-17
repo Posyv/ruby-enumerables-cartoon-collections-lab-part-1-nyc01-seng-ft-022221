@@ -4,7 +4,9 @@ describe "Using Each" do
   describe "greet_characters" do
     it "prints out a custom greeting for each name in the provided array" do
       dwarves = ["Dopey", "Grumpy", "Bashful"]
-
+dwarves.each do |dwarf|
+  puts "Hello #{[dwarf]}!"
+end
       output = capture_stdout do
         greet_characters(dwarves)
       end
