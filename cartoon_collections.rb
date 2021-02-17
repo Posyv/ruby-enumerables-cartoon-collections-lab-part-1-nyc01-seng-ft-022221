@@ -1,7 +1,7 @@
 def greet_characters(array)
   dcount = 0
-  greet_characters.each do |dwarf|
-    puts "Hello #{[dwarf]}!"
+  greet_characters.each do 
+    puts "Hello #{[array]}!"
     dcount += 1
   end
   # Use `each` to enumerate over the provided array
