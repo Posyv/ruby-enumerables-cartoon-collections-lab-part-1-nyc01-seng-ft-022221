@@ -1,4 +1,9 @@
 def greet_characters(array)
+  dcount = 0
+  dwarves.each do |dwarf|
+    puts "Hello #{[dwarf]}!"
+    dcount += 1
+  end
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
